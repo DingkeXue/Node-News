@@ -1,0 +1,77 @@
+定义：
+url		300字
+
+banner_table		首页图
+ID
+title		varchar(64)
+description	varchar(300)
+href		varchar(300)
+
+==========================================================================================
+intro_table		产品介绍图
+ID
+title		varchar(64)
+description	varchar(300)
+href		varchar(300)
+
+==========================================================================================
+custom_table		用户表
+ID
+title		varchar(64)
+description	varchar(300)
+src		varchar(300)
+
+==========================================================================================
+news_table		新闻表
+ID
+title		varchar(100)
+summary		varchar(300)
+href		varchar(300)
+ico_src		varchar(300)
+big_pic_src	varchar(300)
+content		text
+
+==========================================================================================
+blog_table		博文表
+ID
+title		varchar(100)
+pic_src		varchar(300)
+big_pic_src	varchar(300)
+summary		varchar(300)
+content		text	
+post_time	timestamp
+author		varchar(32)
+n_view		int
+
+==========================================================================================
+contact_table		地址表
+ID
+street		varchar(64)
+phone		varchar(20)
+fax		varchar(20)
+email		varchar(32)
+qq		varchar(20)
+wechat		varchar(20)
+map
+
+==========================================================================================
+msg_table		发送信息表
+ID
+name		varchar(16)
+email		varchar(32)
+phone		varchar(20)
+content		text
+
+==========================================================================================
+about_table		关于我们
+ID
+title		varchar(200)
+content		text
+pic_src		varchar(300)
+href		varchar(300)
+
+admin_table		管理员表
+ID	
+username	varchar(32)
+password	varchar(32)
+
